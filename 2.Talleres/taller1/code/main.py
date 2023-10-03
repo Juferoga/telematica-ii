@@ -18,3 +18,4 @@ sniff(prn=packet_callback, count=10)
 # sniff(filter="ether src 00:11:22:33:44:55", prn=packet_callback, count=10)
 # # Filtro por puerto TCP y host específico
 # sniff(filter="tcp and port 80 and host 192.168.1.1", prn=packet_callback, count=10)
+
