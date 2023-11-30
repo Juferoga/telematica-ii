@@ -32,6 +32,7 @@ def get_snmp_data(host, community, oid):
 
 # Definimos las variables
 host = '10.20.180.1'  # IP del dispositivo
+#host = '10.22.33.214'  # IP del dispositivo
 community = 'public'  # Comunidad SNMP
 oid = '.1.3.6.1.2.1'  # OID raíz
 
